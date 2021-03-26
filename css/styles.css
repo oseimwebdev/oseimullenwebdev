@@ -1,0 +1,144 @@
+body { /* This is effecting everything from where my picture is and down, I think. */
+  color: #40514E; /* color of the text. video 63. */
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 { /* This is effecting the h1 heading in the div on the html page */
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 { /* This is effecting the h2 heading in the div on the html page */
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px; /* This gives a padding (space) between the h2 headings and the paragraph element below it. */
+}
+
+h3 { /* This is effecting the h3 heading in the div on the html page */
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p { /* Targeting the paragraphs in this way effects all the and not just one. vide 63. */
+  line-height: 2; /* This makes space inbetween all the lines of text in the paragraph */
+}
+
+hr { /* This is a html element and the one above in red. Video 63 */
+  border: dotted #EAF6F6 6px; /* The hr line is dotted, color, and 6px in width */
+  border-bottom: none; /* This makes the hr one line and not a box by getting rid of the botton line. Video 63 & 35. */
+  width: 4%; /* This width percentage allows the hr to move with the page. */
+  margin: 100px auto; /* 100px is for the top & bottom ( so it isn't touching what is around it.), and auto is for left & right. */
+}
+
+a { /* This is contected to the anchor tag on the html page. */
+  color: #11999e;
+  font-family: "monserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none; /* We used this to remove the underline from the hyperlinks. Video 63. */
+}
+
+a:hover { /* This is the "hover state" of the anchor tag on the html page. This is a "psuedo class" To refresh my memory check out the previous "css selectors" video. */
+  color: #EAf6f6;
+}
+
+.top-container {
+  background-color: #EAF6F6; /* This is the color for the top of the website */
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container { /* This is effecting the middle-container in the div on the html page. */
+margin: 100px 0; /* The 100 is refering to the top and bottom and the 0 is refering to the left and right. video 63. */
+}
+
+.bottom-container {
+  Background-color: #66bfbf; /* This is the background color at the bottom of the website callec a footer. Video 63. */
+  padding: 50px 0 20px; /* Top, Right & Left, and bottom. The 20px should cover the default padding already on the website so the color reaches all the way to the bottom. video 63. */
+
+}
+
+.skill-row { /* This connects with the "div class" on the html page */
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  /* text-decoration: underline; */
+}
+
+.intro {
+  width: 30%; /* This makes the text shorter in width, if I had a lot of text, which is the middle-container, and 30% of the parent container . video 63. */
+  margin: auto; /* This is centering the text to the middle of the web page. Video 63. */
+}
+
+.copyright { /* This is being targeted by copyright class at the bottom of the html page. Video 63. */
+  color: #EAf6f6;
+  font-size: 0.75rem; /* which is 75% of 16px (division). Video 63 */
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px; /* Top, Left & Right, and bottom. video 63*/
+  padding: 20px 0; /* space around the text. Video 63. */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.javascriptbook-img { /* This connects with the class in the img tag. Video 61. */
+  width: 35%; /* her size was 25% */
+  float: left; /* This put the img to the left. Only use this to wrap text around an img and not for positioning Video 61. */
+  margin-right: 30px; /* This is creating space between the img and the text. video 61.*/
+  /* If i want the text to appear under the img watch video 61, time 10:30. */
+}
+.css3book-img {
+  width: 50%; /* Her size was 25% */
+  float: right; /* This puts the img to the right */
+  margin-left: 30px;
+}
+
+.btn { /* All of this code is copy and pasted from the bottom generator website. Video 63. */
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif; /* We changed the color to the color of the h2 and h3 headings */
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
